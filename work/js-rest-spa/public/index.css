@@ -1,0 +1,64 @@
+.status {
+    color: red;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    text-align: center;
+}
+
+.diplay-block {
+    border-style: solid;
+    border-width:medium;
+    border-color: lightblue;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 100px;
+    margin-bottom: 50px;
+    margin-left: 300px;
+    margin-right: 300px;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.login-username {
+    margin-top: 10px;
+    margin-left: 30px;
+    height: 20px;
+    width: 100px;
+}
+
+.login-button {
+    color: cadetblue;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+.logout-block {
+    color: cadetblue;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.inventory-button {
+    border: none;
+    color: white;
+    width: 30px;
+    height: 30px;
+    padding: 5px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 5px;
+    border-radius: 100%;
+    cursor: pointer;
+}
+
+.inventory-button.enabled {
+    background-color: green;
+}
+  
+.inventory-button.disabled {
+    background-color: grey;
+}
+  

@@ -1,0 +1,10 @@
+.game {
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+}
+
+.message {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  color: red;
+}

@@ -1,0 +1,52 @@
+#guess-game-app {
+  border-style: solid;
+  border-width:medium;
+  border-color: lightblue;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-top: 100px;
+  margin-left: 300px;
+  margin-right: 300px;
+  text-align: center;
+}
+
+.word-list {
+  font-size: 30px;
+  line-height: 130%;
+  font-family: Consolas, Monaco, monospace;
+}
+
+.guess-list {
+  font-size: 20px;
+  font-family: Consolas, Monaco, monospace;
+  list-style-position: inside;
+}
+
+.guess-input {
+  width: 100px;
+  margin-left: 30px;
+}
+
+.answer {
+  background-color: black;
+  color: white;
+}
+
+.top-right {
+  float: right;
+  margin-right: 20px;
+  margin-top: 20px;
+}
+
+.won {
+  color: red;
+}
+
+.guessed {
+  color: gray;
+  text-decoration:line-through;
+}
+
+.not-guessed{
+  font-weight: bold;
+  cursor: pointer;
+}

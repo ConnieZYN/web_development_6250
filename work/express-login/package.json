@@ -1,0 +1,16 @@
+{
+  "name": "express-login",
+  "version": "1.0.0",
+  "description": "express login assignment",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cookie-parser": "^1.4.6",
+    "express": "^4.17.3",
+    "uuid": "^8.3.2"
+  }
+}

@@ -1,0 +1,47 @@
+#store-inventory-app { 
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+}
+#store-inventory-app ul { 
+  display: inline-block;
+  text-align: right;
+  border-style: solid;
+  border-width:medium;
+  border-color: lightblue;
+  padding: 30px;
+}
+
+#store-inventory-app .inventory-button {
+  border: none;
+  color: white;
+  width: 30px;
+  height: 30px;
+  padding: 5px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 5px;
+  border-radius: 100%;
+  cursor: pointer;
+}
+
+#store-inventory-app .inventory-button.enabled {
+  background-color: green;
+}
+
+#store-inventory-app .inventory-button.disabled {
+  background-color: grey;
+}
+
+#store-inventory-app .delete { 
+  margin-left: 10px;
+  font-weight: bold;
+  background: red;
+  border: 1px solid black;
+  cursor: pointer;
+}
+
+#store-inventory-app .inventory-row:hover {
+  background-color: lightgray;
+}
